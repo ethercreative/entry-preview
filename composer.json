@@ -11,8 +11,8 @@
         "entry preview"
     ],
     "support": {
-        "docs": "???",
-        "issues": "???"
+        "docs": "https://github.com/ethercreative/entry-preview/blob/master/README.md",
+        "issues": "https://github.com/ethercreative/entry-preview/issues"
     },
     "license": "MIT",
     "authors": [
@@ -34,7 +34,7 @@
         "handle": "entry-preview",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "???",
+        "changelogUrl": "https://github.com/ethercreative/entry-preview/blob/master/CHANGELOG.md",
         "class": "ether\\entrypreview\\EntryPreview"
     }
 }
