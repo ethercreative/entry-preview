@@ -1,0 +1,40 @@
+{
+    "name": "ether/entry-preview",
+    "description": ".",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "entry preview"
+    ],
+    "support": {
+        "docs": "???",
+        "issues": "???"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ether Creative",
+            "homepage": "https://ethercreative.co.uk"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "ether\\entrypreview\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Entry Preview",
+        "handle": "entry-preview",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "???",
+        "class": "ether\\entrypreview\\EntryPreview"
+    }
+}
